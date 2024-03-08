@@ -1,3 +1,8 @@
-body {
-    background-image: url("https://raw.githubusercontent.com/AlexHappel/Portfolio-AH/main/assets/images/Background.jpeg");
+.body {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("C:/Users/alexh/bootcamp/homework/Portfolio-AH/assets/images/Background.jpeg");
+    background-size: cover;
+    background-position: center;
   }
