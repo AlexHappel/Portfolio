@@ -1,8 +1,22 @@
-.body {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("C:/Users/alexh/bootcamp/homework/Portfolio-AH/assets/images/Background.jpeg");
-    background-size: cover;
-    background-position: center;
+* {
+    box-sizing: border-box;
+    padding: 50;
+    margin: 50;
+}
+
+ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 50;
   }
+    
+  li {
+    display: inline;
+    width: auto;
+    margin: 100;
+    padding: 100;
+
+    float: left;
+  }
+    
+    
