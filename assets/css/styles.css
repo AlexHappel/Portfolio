@@ -1,7 +1,7 @@
 * {
   border-radius: 5px
 }
-body{
+body {
   background-color: #000000;
 }
 
@@ -9,22 +9,26 @@ body{
 header {
   width: 100%;
   Height: 300px;
-  border:  solid black;
-  padding: 10px;    
-  background-image: url(/assets/images/headshot.jpg), url(/assets/images/eth-wires.jpg);
-  background-size: 300px 320px, 100%;
+  border:  solid black;  
+  background-image: url(/images/headshot.jpg), url(/images/eth-wires.jpg);
+  background-size: 300px 320px, cover;
   background-repeat: no-repeat;
   background-attachment:local;
-  background-position: 0% 25%, center;        
+  background-position: 0% 25%, center; 
+  display: inline-block flex;
+         
 }
 h1 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  display:inline-block flex;
   border-radius: 0px;
-  position: absolute;
-  top:-1.2%;
-  left:.9%; 
+  position: relative;
+  left:0%;
+  bottom: 7.5%;
   text-align: center;
   border: 1px solid ;
   width: 298px;
+  height: fit-content;
   background-color: rebeccapurple;
 }
 ul {
@@ -49,9 +53,12 @@ li a:hover {
   }    
 
 .about {
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
   color:rgb(0, 0, 0);
   width: fit-content;
   height: 500px;
+  margin-bottom: 100px;
   background-color: rebeccapurple;
   
 }
@@ -99,19 +106,49 @@ li a:hover {
   display:block;
   position: absolute;
 }
-img{
+img {
 max-width: 100%;
 max-height: 100%;
-
 }
 .gallery {
-  display: grid;
-  grid-template-columns: no-repeat(5, 1fr); 
-  grid-gap: 1px; 
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 600px;
+  margin: 0 auto; 
+}
+.gallery-item {
+  color: rgb(245, 243, 243);
+  margin: 5px;
+  flex-basis:auto;
+  display:inline-block;  
+}
+.gallery-item img {
+  width:300px;
+  height:300px;
+}
+.gallery-item:hover img{
+opacity: 0.8;
 }
 
-.gallery img {
-  width: 100px; 
-  height: 100px;
+.main-image {
+  color: #ddd;
+  width: auto;
+  height: auto;
+  flex-basis: 100%;
+}
+.main-image:hover {
+  opacity: 0.8;
+
+}
+
+section{ 
+  color: white;
+}
+footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color:white;
 }
   
