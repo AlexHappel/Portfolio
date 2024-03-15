@@ -3,6 +3,9 @@
 }
 body {
   background-color: #000000;
+  background-image: url(/images/sarracenia.jpg);
+  background-size: cover;
+  background-attachment:fixed;
 }
 
 
