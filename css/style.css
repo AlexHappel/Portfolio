@@ -13,7 +13,7 @@ header {
   width: 100%;
   Height: 300px;
   border:  solid black;  
-  background-image: url(images/headshot.jpg), url(images/eth-wires.jpg);
+  background-image: url(/images/headshot.jpg), url(/images/eth-wires.jpg);
   background-size: 300px 320px, cover;
   background-repeat: no-repeat;
   background-attachment:local;
