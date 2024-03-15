@@ -10,7 +10,7 @@ body {
 
 
 header {
-  background-image: url(/images/headshot.jpg), url(/images/eth-wires.jpg);
+  background-image: url("/images/headshot.jpg"), url("/images/eth-wires.jpg");
   width: 100%;
   Height: 300px;
   border:  solid black;  
