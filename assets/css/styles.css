@@ -58,6 +58,7 @@ li a:hover {
   color:rgb(0, 0, 0);
   width: fit-content;
   height: 500px;
+  margin-top: 100px;
   margin-bottom: 100px;
   background-color: rebeccapurple;
   
@@ -115,14 +116,16 @@ max-height: 100%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
+  text-align: center;
   max-width: 600px;
   margin: 0 auto; 
 }
 .gallery-item {
   color: rgb(245, 243, 243);
+  text-align: center;
+  padding: 10px;
   margin: 5px;
-  flex-basis:auto;
-  display:inline-block;  
+  display:flex block;  
 }
 .gallery-item img {
   width:300px;
