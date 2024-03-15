@@ -21,6 +21,7 @@
 * THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Screenshot
+![image](https://github.com/AlexHappel/Portfolio-AH/assets/156026228/32ff65e2-45a2-431c-8854-1ba2a34f6d5e)
 
 
 ### Links
